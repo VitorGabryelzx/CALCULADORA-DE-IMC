@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+      font-family:Montserrat, sans-serif ;
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+}
+
+body{
+      background-color:#010331 ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+}
+
+.main-container{
+      background-color: #4e4e4e;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+      width: 600px;
+      height: 400px;
+      border-radius: 15px;
+      border: none;
+      box-shadow: 3px 3px 10px #0000003a;
+}
+.main-container h1{
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+
+.imc-result{
+      color:yellow;
+
+}
+#resultadoImc{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 20px;
+}
+#NivelImc{
+      font-size: 15px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+}
+
+
+/* inputs */
+
+.input-area{
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+      margin-bottom: 25px;
+      
+}
+.input-area .peso{
+      margin-right: 30px;
+}
+
+.input-area input{
+      height: 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid yellow;
+      text-align: center;
+      color: white;
+      
+}
+.input-area input:focus{
+      outline: none;
+}
+
+/* botao */
+
+button{
+      margin-top: 20px;
+      height: 40px;
+      width: 300px;
+      background-color: yellow;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+}
+
+      
+
+
